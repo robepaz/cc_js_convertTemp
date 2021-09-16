@@ -5,5 +5,7 @@ const kelvin = 293;
 let celsius = kelvin - 273;
 
 // convierte celsius a farenheit
-let farenheit = celsius * (9/5) + 32;
+let fahrenheit = celsius * (9/5) + 32;
 
+// quita decimales a f
+fahrenheit = Math.floor(fahrenheit);
